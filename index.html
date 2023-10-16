@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BidaPoly Clearance System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/BIDA-POLY-BANNER-2.png" alt="banner">
+        </div>
+        <div>
+            <h1>BidaPoly Clearance System</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="clearance-form">
+            <h2>BidaPoly Clearance Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="student-name">Student Name</label>
+                    <input type="text" id="student-name" name="student-name" placeholder="Enter student's name" required>
+                </div>
+                <div class="form-group">
+                    <label for="student-id">Student ID/ Matric Number</label>
+                    <input type="text" id="student-id" name="student-id" placeholder="Enter student's ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="clearance-reason">Reason for Clearance</label>
+                    <select id="clearance-reason" name="clearance-reason" required>
+                        <option value="Library">Library</option>
+                        <option value="Fees">Fees</option>
+                        <option value="Library and Fees">Library and Fees</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button type="submit">Submit Clearance Request</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
